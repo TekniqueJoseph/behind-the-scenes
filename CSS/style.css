@@ -6,11 +6,20 @@ body{
 
 #particles-js {
     height: 100vh;
-    /* margin: 0;
-    padding: 0; */
     text-align: center;
+    width: 100%;
+
 }
 .content{
-    position: relative;
-    top: 40%;
+    width: 100%;
+    position:absolute;
+    top: 20%;
+}
+.message{
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    top: 250px; 
+    /* width: 100%; */
 }
